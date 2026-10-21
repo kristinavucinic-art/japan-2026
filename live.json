@@ -1,0 +1,57 @@
+{
+ "fuji": {
+  "checked_at": "2026-10-21T10:47:49Z",
+  "checked_label": "21 Oct, 19:47 Japan",
+  "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
+  "target_date": "2026-11-30",
+  "target_in_range": false,
+  "target_summary": "",
+  "tomorrow_date": "2026-10-22",
+  "tomorrow_label": "Thu 22 Oct",
+  "tomorrow_line": "sunny at 9, cloudy at 12 · rain 0–20% · best view 06:00 (excellent)"
+ },
+ "weather": {
+  "checked_at": "2026-10-21T10:47:49Z",
+  "checked_label": "21 Oct",
+  "days": {},
+  "source": "AccuWeather"
+ },
+ "foliage": {
+  "checked_at": "2026-10-21T10:47:49Z",
+  "checked_label": "21 Oct",
+  "cities": {
+   "kyoto": {
+    "basis": "forecast",
+    "peak": "2026-11-25",
+    "peak_end": "2026-12-10",
+    "source": "Weathernews",
+    "spot": "Arashiyama",
+    "url": "https://weathernews.jp/koyo/spot/26101/"
+   },
+   "osaka": {
+    "basis": "forecast",
+    "peak": "2026-11-21",
+    "peak_end": "2026-12-10",
+    "source": "Weathernews",
+    "spot": "Osaka Castle",
+    "url": "https://weathernews.jp/koyo/spot/26207/"
+   },
+   "tofukuji": {
+    "basis": "forecast",
+    "peak": "2026-11-24",
+    "peak_end": "2026-12-10",
+    "source": "Weathernews",
+    "spot": "Tofuku-ji",
+    "url": "https://weathernews.jp/koyo/spot/26111/"
+   },
+   "tokyo": {
+    "basis": "forecast",
+    "peak": "2026-12-01",
+    "peak_end": "2026-12-14",
+    "source": "Weathernews",
+    "spot": "Gaien ginkgo",
+    "url": "https://weathernews.jp/koyo/spot/24408/"
+   }
+  }
+ }
+}
