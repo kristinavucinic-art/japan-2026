@@ -76,11 +76,11 @@ details.day[open]>summary{position:sticky;top:calc(env(safe-area-inset-top,0px) 
 .daybody div,.citybody div,.essbody div{max-width:100%}
 button{font:inherit}
 .daymap{display:block;width:100%;height:auto}
-.ck{appearance:none;-webkit-appearance:none;width:13px;height:13px;margin:0;flex-shrink:0;border:1px solid currentColor;background:transparent;cursor:pointer;position:relative;top:2px}
-.ck:checked::after{content:"";position:absolute;left:3px;top:0px;width:4px;height:8px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(42deg)}
+.ck{appearance:none;-webkit-appearance:none;width:16px;height:16px;margin:0;flex-shrink:0;border:1px solid currentColor;border-radius:0;background:transparent no-repeat center/12px 12px;cursor:pointer;position:relative;top:1px;-webkit-tap-highlight-color:transparent}
+.ck:checked{background-color:currentColor;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.2 6.3l2.4 2.4 5.2-5.4' fill='none' stroke='%23F7F1E6' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
 .ck:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 .oi{display:flex;gap:9px;align-items:flex-start;cursor:pointer}
-.oi.done .oit{opacity:.45;text-decoration:line-through}
+.oi.done{opacity:.5}.oi.done .oit{text-decoration:line-through;text-decoration-thickness:1px}html.hide-done .oi.done{display:none}.donetog{background:none;border:0;padding:6px 0;margin:0;cursor:pointer;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted2);text-decoration:underline;text-underline-offset:3px;min-height:28px}.donetog[hidden]{display:none}
 .oiwrap.allclear .oihd-n{display:none}
 .openlink.hidden{display:none}
 /* excursion card — gold sticky band inside a day */
@@ -1778,7 +1778,7 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
       </div>
       <div style="display: flex; gap: 9px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--hair);">
         <span style="font-size: 10px; color: var(--muted2); font-weight: 600; width: 13px; flex-shrink: 0;">3</span>
-        <span style="font-size: 12.5px; line-height: 1.3; color: var(--muted);">Tenboshi — to book</span>
+        <span style="font-size: 12.5px; line-height: 1.3; color: var(--muted);">Ginza Tenichi — booked</span>
       </div>
       <div style="display: flex; gap: 9px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--hair);">
         <span style="font-size: 10px; color: var(--a-kansai); font-weight: 600; width: 13px; flex-shrink: 0;">4</span>
@@ -1857,21 +1857,21 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
 
   <div style="margin: 26px 28px 0 28px; border-top: 2px solid var(--text); padding-top: 10px; display: flex; justify-content: space-between; align-items: baseline;">
     <div style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase;">Afternoon</div>
-    <div style="font-size: 10px; letter-spacing: 0.14em; color: var(--muted);">12:30 — 18:00</div>
+    <div style="font-size: 10px; letter-spacing: 0.14em; color: var(--muted);">12:00 — 18:00</div>
   </div>
   <div style="padding: 18px 28px 0 28px; display: flex; flex-direction: column; gap: 11px;">
     <div style="border-top: 1px solid var(--rule); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
-      <h2 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 29px; line-height: 1.05;"><a href="https://www.google.com/maps/search/?api=1&amp;query=Tenboshi%20Tenjimbashi%20Osaka" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Lunch at Tenboshi</a></h2>
-      <div style="font-size: 12px; font-weight: 500; color: var(--a-kansai); flex-shrink: 0;">12:30</div>
+      <h2 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 29px; line-height: 1.05;"><a href="https://www.google.com/maps/search/?api=1&amp;query=Ginza%20Tenichi%20Herbis%20Plaza%20Ent%20Osaka" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Lunch at Ginza Tenichi</a></h2>
+      <div style="font-size: 12px; font-weight: 500; color: var(--a-kansai); flex-shrink: 0;">12:00</div>
     </div>
-    <div style="display: inline-block; align-self: flex-start; border: 1px dashed var(--muted2); color: var(--muted); padding: 3px 8px; font-size: 8.5px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600;">Not decided yet</div>
-    <div style="font-size: 13.5px; line-height: 1.6; color: var(--body); text-wrap: pretty;">Tempura at a ten-seat counter in Tenjinbashi, twelve minutes north of the hotels &mdash; the little sister of two-starred Numata, and a Bib Gourmand in its own right. It is quick and deliberately unfussy, which is what we want on a day that ends on a train. An ekiben for the journey regardless.</div>
+    <div style="display: inline-block; align-self: flex-start; border: 1px solid var(--a-kansai); color: var(--a-kansai); padding: 3px 8px; font-size: 8.5px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600;">Booked · counter for three</div>
+    <div style="font-size: 13.5px; line-height: 1.6; color: var(--body); text-wrap: pretty;">Tempura at the counter, cooked in front of us, at the Osaka branch of the Ginza tempura house. It is in Herbis Plaza Ent in Umeda, five minutes from the hotels, so there is no going far on a day that ends on a train. We choose the menu when we sit down.</div>
     <div style="background: var(--panel); padding: 14px 16px; box-sizing: border-box;">
       <div style="font-size: 8.5px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--a-kansai); margin-bottom: 6px;">Good to know</div>
-      <div style="font-size: 12.5px; line-height: 1.6; color: var(--ink2); text-wrap: pretty;">Lunch is twelve to two and the set runs &yen;4,000&ndash;5,000 a head. Tanimachi line to Tenjimbashisuji 6-chome, three stops. Cash only at lunch, and it closes Mondays plus the odd extra day, so the date is worth confirming as we book. <a href="https://guide.michelin.com/us/en/osaka-region/osaka/restaurant/tenboshi" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Michelin</a> &middot; <a href="https://restaurant.ikyu.com/113135" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Book on Ikyu</a>. If we would rather eat something unmistakably Osakan on the way out, Sushitsune at Minami-Morimachi presses battera sets from &yen;3,400 &mdash; six seats, lunch Friday to Sunday only, telephone on 06-6351-9886, cash only.</div>
+      <div style="font-size: 12.5px; line-height: 1.6; color: var(--ink2); text-wrap: pretty;">Herbis Plaza Ent, 5th floor, 2-2-22 Umeda, Kita-ku &mdash; 大阪市北区梅田2-2-22 ハービスPLAZA ENT 5F. Telephone 050-5869-5323. Cancelling from 24 November costs &yen;10,000 plus a 5% handling charge per person.</div>
     </div>
     <div style="display: flex; gap: 10px; padding-top: 2px;">
-      <a href="https://maps.app.goo.gl/rqwKJ7Upj4CyGSoNA" target="_blank" rel="noopener" style="flex-grow: 1; min-height: 44px; background: var(--a-kansai); border: 1px solid var(--a-kansai); color: #F7F3EA; font-family: Karla, sans-serif; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; display: flex; align-items: center; justify-content: center; text-decoration: none; box-sizing: border-box;">Our saved list</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Ginza%20Tenichi%20Herbis%20Plaza%20Ent%20Osaka" target="_blank" rel="noopener" style="flex-grow: 1; min-height: 44px; background: transparent; border: 1px solid var(--text); color: var(--text); font-family: Karla, sans-serif; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; display: flex; align-items: center; justify-content: center; text-decoration: none; box-sizing: border-box;">Open in Maps</a>
     </div>
   </div>
   <div style="margin: 16px 28px 0 28px; display: flex; gap: 12px; align-items: flex-start;">
@@ -1987,7 +1987,7 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
     <div style="font-size: 12px; line-height: 1.55; color: var(--muted); text-wrap: pretty;">Azabu-juban has its own subway station at the end, so there is no walking back. Equally, a taxi straight to bed after a travel day is no failure at all.</div>
   </div>
 
-  <div class="oiwrap" id="open-day-6" data-n="3" style="margin: 24px 28px 0 28px; border-top: 1px solid var(--rule); padding-top: 12px; scroll-margin-top: 104px;">
+  <div class="oiwrap" id="open-day-6" data-n="2" style="margin: 24px 28px 0 28px; border-top: 1px solid var(--rule); padding-top: 12px; scroll-margin-top: 104px;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px;">
       <div style="font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--a-kansai);">This day still needs</div>
       <div class="oihd-n" style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted2);"><span class="oi-left">3</span> to settle</div>
@@ -1995,7 +1995,6 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
     <div style="display: flex; flex-direction: column; gap: 7px;">
       <label class="oi" data-k="open-day-6-2"><input type="checkbox" class="ck" style="color: var(--a-kansai);"><span class="oit" style="font-size: 12px; line-height: 1.6; color: var(--ink2); text-wrap: pretty;"><b>Osaka&ndash;Tokyo Nozomi</b> &mdash; book in advance in SmartEX, for window seats.</span></label>
       <label class="oi" data-k="open-day-6-1"><input type="checkbox" class="ck" style="color: var(--a-kansai);"><span class="oit" style="font-size: 12px; line-height: 1.6; color: var(--ink2); text-wrap: pretty;">Custom pillow fitting at Umeda &mdash; needs booking ahead.</span></label>
-      <label class="oi" data-k="open-day-6-0"><input type="checkbox" class="ck" style="color: var(--a-kansai);"><span class="oit" style="font-size: 12px; line-height: 1.6; color: var(--muted); text-wrap: pretty;">Tenboshi &mdash; book on Ikyu, and check the date is not one of their extra closures.</span></label>
     </div>
     <div class="oi-clear" hidden style="margin-top: 10px; font-size: 11.5px; line-height: 1.5; color: var(--a-kansai);">Nothing outstanding &mdash; this day is ready.</div>
   </div>
@@ -4643,60 +4642,42 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
 
   <div style="margin: 22px 28px 0 28px;">
     <div style="border-top: 2px solid var(--text); padding-top: 10px; font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; margin-bottom: 6px;">Pre-flight checklist</div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Suica card in Apple Wallet</span>
+    <label class="oi" data-k="open-day-2-2" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Suica card in Apple Wallet</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">Nick</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://services.digital.go.jp/en/visit-japan-web/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Visit Japan Web</a> customs and immigration forms &mdash; done for all three of us</span>
+    </label>
+    <label class="oi" data-k="ess-jp-1" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://services.digital.go.jp/en/visit-japan-web/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Visit Japan Web</a> customs and immigration forms &mdash; done for all three of us</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">Sanja</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://www.airalo.com/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Airalo</a> eSIMs &mdash; Kristina sends, installed on the day of travel</span>
+    </label>
+    <label class="oi" data-k="open-day-1-1" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://www.airalo.com/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Airalo</a> eSIMs &mdash; Kristina sends, installed on the day of travel</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/shinkansen-smartex-app/id1253336330" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">SmartEX</a> account created, payment card added</span>
+    </label>
+    <label class="oi" data-k="ess-jp-3" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/shinkansen-smartex-app/id1253336330" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">SmartEX</a> account created, payment card added</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">Kristina</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/go-taxi-app-for-japan-visit/id1254341709" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">GO</a> taxi app installed, card added</span>
+    </label>
+    <label class="oi" data-k="ess-jp-4" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/go-taxi-app-for-japan-visit/id1254341709" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">GO</a> taxi app installed, card added</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://luup.sc/en/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">LUUP</a> app installed &mdash; e-bikes need a credit card only, no ID</span>
+    </label>
+    <label class="oi" data-k="ess-jp-5" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://luup.sc/en/" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">LUUP</a> app installed &mdash; e-bikes need a credit card only, no ID</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Google Translate Japanese pack downloaded for offline use</span>
+    </label>
+    <label class="oi" data-k="ess-jp-6" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Google Translate Japanese pack downloaded for offline use</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/tabelog-food-guide-in-japan/id6752922875" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Tabelog</a> installed for restaurant ratings</span>
+    </label>
+    <label class="oi" data-k="ess-jp-7" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/us/app/tabelog-food-guide-in-japan/id6752922875" target="_blank" rel="noopener" style="color: var(--a-kansai); text-decoration: none; font-weight: 600;">Tabelog</a> installed for restaurant ratings</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Small gifts &mdash; local food or trinkets</span>
+    </label>
+    <label class="oi" data-k="ess-jp-8" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-kansai); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);">Small gifts &mdash; local food or trinkets</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-kansai); flex-shrink: 0; margin-top: 2px;">Kristina</span>
-    </div>
+    </label>
   </div>
 
   <div style="margin: 22px 28px 0 28px;">
@@ -4831,30 +4812,22 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
 
   <div style="margin: 22px 28px 0 28px;">
     <div style="border-top: 2px solid var(--text); padding-top: 10px; font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; margin-bottom: 6px;">Pre-flight checklist</div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://www.octopus.com.hk/en/" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Octopus</a> card set up in Apple Wallet</span>
+    <label class="oi" data-k="open-day-10-0" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-hk); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://www.octopus.com.hk/en/" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Octopus</a> card set up in Apple Wallet</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-hk); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/gb/app/uber-request-a-ride/id368677368" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Uber</a> installed and working</span>
+    </label>
+    <label class="oi" data-k="ess-hk-1" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-hk); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://apps.apple.com/gb/app/uber-request-a-ride/id368677368" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Uber</a> installed and working</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-hk); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://happywednesday.hkjc.com/en-US/parties/S2627LonginesIJC/?b_cid=SPLDSP_RnE/HW/Party/Home/schedule_Section-Banner-UpcomingParties" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Happy Valley race night</a> tickets &mdash; bought with Octopus</span>
+    </label>
+    <label class="oi" data-k="ess-hk-2" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-hk); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);"><a href="https://happywednesday.hkjc.com/en-US/parties/S2627LonginesIJC/?b_cid=SPLDSP_RnE/HW/Party/Home/schedule_Section-Banner-UpcomingParties" target="_blank" rel="noopener" style="color: var(--a-hk); text-decoration: none; font-weight: 600;">Happy Valley race night</a> tickets &mdash; bought with Octopus</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-hk); flex-shrink: 0; margin-top: 2px;">Kristina</span>
-    </div>
-    <div style="display: flex; gap: 11px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--hair);">
-      <span style="width: 14px; height: 14px; border: 1px solid var(--text); flex-shrink: 0; margin-top: 2px;"></span>
-      <span style="font-size: 12.5px; line-height: 1.5; color: var(--body);">eSIM coverage extended to Hong Kong, or a separate plan</span>
+    </label>
+    <label class="oi" data-k="ess-hk-3" style="gap: 11px; padding: 8px 0; border-bottom: 1px solid var(--hair);"><input type="checkbox" class="ck" style="color: var(--a-hk); margin-top: 1px;" aria-label="Done"><span class="oit" style="font-size: 12.5px; line-height: 1.5; color: var(--body);">eSIM coverage extended to Hong Kong, or a separate plan</span>
       <span style="flex-grow: 1;"></span>
       <span style="font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--a-hk); flex-shrink: 0; margin-top: 2px;">All</span>
-    </div>
+    </label>
   </div>
 
   <div style="margin: 22px 28px 0 28px;">
@@ -4992,7 +4965,6 @@ details.ride>summary{padding:14px 16px;background:var(--panel);display:flex;alig
     <div style="border-top: 2px solid var(--text); padding-top: 10px; font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; margin-bottom: 4px;">Ask the hotel &mdash; any time</div>
     <div style="font-size: 11.5px; line-height: 1.55; color: var(--muted); margin: 6px 0 2px;">One conversation with each concierge covers most of this.</div>
     <label class="oi" data-k="open-day-5-0" style="padding: 8px 0; border-bottom: 1px solid var(--hair); align-items: flex-start;"><input type="checkbox" class="ck" style="color: var(--a-hk);"><span class="oit" style="font-size: 12px; line-height: 1.5; color: var(--body); flex-grow: 1;">Sushi Harasho lunch &mdash; telephone only, so the hotel has to call.</span><span style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted2); flex-shrink: 0; padding-left: 8px; padding-top: 2px;">Day 5</span></label>
-    <label class="oi" data-k="open-day-6-0" style="padding: 8px 0; border-bottom: 1px solid var(--hair); align-items: flex-start;"><input type="checkbox" class="ck" style="color: var(--a-hk);"><span class="oit" style="font-size: 12px; line-height: 1.5; color: var(--body); flex-grow: 1;">Tenboshi tempura lunch &mdash; bookable online on Ikyu.</span><span style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted2); flex-shrink: 0; padding-left: 8px; padding-top: 2px;">Day 6</span></label>
     <label class="oi" data-k="open-day-4-0" style="padding: 8px 0; border-bottom: 1px solid var(--hair); align-items: flex-start;"><input type="checkbox" class="ck" style="color: var(--a-hk);"><span class="oit" style="font-size: 12px; line-height: 1.5; color: var(--body); flex-grow: 1;">Karaoke room for the birthday night.</span><span style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted2); flex-shrink: 0; padding-left: 8px; padding-top: 2px;">Day 4</span></label>
     <label class="oi" data-k="open-day-9b-3" style="padding: 8px 0; border-bottom: 1px solid var(--hair); align-items: flex-start;"><input type="checkbox" class="ck" style="color: var(--a-hk);"><span class="oit" style="font-size: 12px; line-height: 1.5; color: var(--body); flex-grow: 1;">Dinner in Ginza &mdash; somewhere worth dressing for. Monday, so the good counters are open.</span><span style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted2); flex-shrink: 0; padding-left: 8px; padding-top: 2px;">Day 9</span></label>
     <label class="oi" data-k="open-day-10-1" style="padding: 8px 0; border-bottom: 1px solid var(--hair); align-items: flex-start;"><input type="checkbox" class="ck" style="color: var(--a-hk);"><span class="oit" style="font-size: 12px; line-height: 1.5; color: var(--body); flex-grow: 1;">Arrival transfer &mdash; Airport Express, or ask the Regent for a car.</span><span style="font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted2); flex-shrink: 0; padding-left: 8px; padding-top: 2px;">Day 10</span></label>
@@ -5082,16 +5054,54 @@ document.querySelectorAll('[data-close]').forEach(function(el){
     if(write){
       local[k]=!!on;
       try{localStorage.setItem(KEY,JSON.stringify(local))}catch(e){}
-      if(db){ db.doc('open/'+k).set({done:!!on}).catch(function(){}); }
+      if(db){ db.doc('open/'+k).set({done:!!on}).then(function(){ saveNote(''); },function(err){ saveNote('Not saved to the shared list'+(err&&err.code?' ('+err.code+')':'')+' — kept on this phone only.'); }); }
     }
   }
+  function saveNote(t){ document.querySelectorAll('.oi-save').forEach(function(n){ n.remove(); }); if(!t) return;
+    document.querySelectorAll('.oiwrap, #still-to-settle .essbody').forEach(function(w){ var d=document.createElement('div'); d.className='oi-save'; d.style.cssText='margin-top:8px;font-size:10.5px;color:var(--muted2);font-style:italic'; d.textContent=t; w.appendChild(d); }); }
   boxes.forEach(function(row){
     if(local[row.dataset.k]) setRow(row,true,false);
-    row.querySelector('.ck').addEventListener('change',function(e){
-      setKey(row.dataset.k,e.target.checked,true); paint();
+    var ck=row.querySelector('.ck');
+    row.addEventListener('click',function(e){
+      if(e.target.closest&&e.target.closest('a')) return;
+      var on;
+      if(e.target===ck){ on=ck.checked; }
+      else { e.preventDefault(); on=!row.classList.contains('done'); }
+      setKey(row.dataset.k,on,true); paint();
+      setTimeout(function(){ ck.checked=on; },0);
     });
+    ck.addEventListener('keydown',function(e){ if(e.key===' '||e.key==='Enter'){ e.preventDefault(); row.click(); } });
   });
   paint();
+
+  /* show / hide completed */
+  var HK='jp2026.hidedone.v1', togs=[];
+  function mkTog(){ var b=document.createElement('button'); b.type='button'; b.className='donetog'; b.addEventListener('click',function(){
+      var on=!document.documentElement.classList.contains('hide-done');
+      document.documentElement.classList.toggle('hide-done',on);
+      try{localStorage.setItem(HK,on?'1':'0')}catch(e){}
+      paintTogs(); }); togs.push(b); return b; }
+  function paintTogs(){
+    var hid=document.documentElement.classList.contains('hide-done');
+    togs.forEach(function(b){
+      var scope=b.closest('.oiwrap')||document.getElementById('still-to-settle');
+      var n=scope?scope.querySelectorAll('.oi.done').length:0;
+      b.hidden=n===0;
+      b.textContent=(hid?'Show completed':'Hide completed')+' ('+n+')';
+    });
+  }
+  try{ if(localStorage.getItem(HK)==='1') document.documentElement.classList.add('hide-done'); }catch(e){}
+  document.querySelectorAll('.oiwrap').forEach(function(w){
+    var hd=w.querySelector('.oihd-n'); if(!hd) return;
+    var holder=document.createElement('div'); holder.style.cssText='display:flex;align-items:baseline;gap:12px';
+    hd.parentNode.insertBefore(holder,hd); holder.appendChild(mkTog()); holder.appendChild(hd);
+  });
+  (function(){ var sec=document.getElementById('still-to-settle'); if(!sec) return;
+    var intro=sec.querySelector('.essbody > div'); if(!intro) return;
+    var row=document.createElement('div'); row.style.cssText='margin:12px 28px 0 28px;display:flex;justify-content:flex-end';
+    row.appendChild(mkTog()); intro.parentNode.insertBefore(row,intro.nextSibling); })();
+  var _paint=paint; paint=function(){ _paint(); paintTogs(); };
+  paintTogs();
 
   function paintFuji(b){
         if(!b) return;
