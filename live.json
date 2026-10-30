@@ -1,29 +1,29 @@
 {
  "fuji": {
-  "checked_at": "2026-10-21T10:47:49Z",
-  "checked_label": "21 Oct, 19:47 Japan",
+  "checked_at": "2026-10-30T10:48:49Z",
+  "checked_label": "30 Oct, 19:48 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-10-22",
-  "tomorrow_label": "Thu 22 Oct",
-  "tomorrow_line": "sunny at 9, cloudy at 12 · rain 0–20% · best view 06:00 (excellent)"
+  "tomorrow_date": "2026-10-31",
+  "tomorrow_label": "Sat 31 Oct",
+  "tomorrow_line": "sunny at 9, sunny at 12 · rain 0% · best view 09:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-10-21T10:47:49Z",
-  "checked_label": "21 Oct",
+  "checked_at": "2026-10-30T10:48:49Z",
+  "checked_label": "30 Oct",
   "days": {},
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-10-21T10:47:49Z",
-  "checked_label": "21 Oct",
+  "checked_at": "2026-10-30T10:48:49Z",
+  "checked_label": "30 Oct",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-25",
-    "peak_end": "2026-12-10",
+    "peak": "2026-11-23",
+    "peak_end": "2026-12-08",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
@@ -38,16 +38,16 @@
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-24",
-    "peak_end": "2026-12-10",
+    "peak": "2026-11-23",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-12-01",
-    "peak_end": "2026-12-14",
+    "peak": "2026-11-29",
+    "peak_end": "2026-12-12",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
