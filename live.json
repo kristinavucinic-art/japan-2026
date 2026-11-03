@@ -11,19 +11,19 @@
   "tomorrow_line": "cloudy at 9, cloudy at 12 · rain 30%"
  },
  "weather": {
-  "checked_at": "2026-11-02T13:10:55Z",
-  "checked_label": "2 Nov",
+  "checked_at": "2026-11-03T10:47:48Z",
+  "checked_label": "3 Nov",
   "days": {},
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-02T13:10:55Z",
-  "checked_label": "2 Nov",
+  "checked_at": "2026-11-03T10:47:48Z",
+  "checked_label": "3 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-23",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-22",
+    "peak_end": "2026-12-07",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
@@ -46,8 +46,8 @@
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-28",
-    "peak_end": "2026-12-11",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
