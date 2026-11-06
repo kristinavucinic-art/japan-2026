@@ -1,24 +1,24 @@
 {
  "fuji": {
-  "checked_at": "2026-11-05T10:47:33Z",
-  "checked_label": "5 Nov, 19:47 Japan",
+  "checked_at": "2026-11-06T10:47:29Z",
+  "checked_label": "6 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-06",
-  "tomorrow_label": "Fri 6 Nov",
-  "tomorrow_line": "best view 10:00 (excellent)"
+  "tomorrow_date": "2026-11-07",
+  "tomorrow_label": "Sat 7 Nov",
+  "tomorrow_line": "sunny at 9, sunny at 12 · rain 0% · best view 08:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-05T10:47:33Z",
-  "checked_label": "5 Nov",
+  "checked_at": "2026-11-06T10:47:29Z",
+  "checked_label": "6 Nov",
   "days": {},
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-05T10:47:33Z",
-  "checked_label": "5 Nov",
+  "checked_at": "2026-11-06T10:47:29Z",
+  "checked_label": "6 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
