@@ -11,43 +11,51 @@
   "tomorrow_line": "best view 08:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-07T10:47:51Z",
-  "checked_label": "7 Nov",
-  "days": {},
+  "checked_at": "2026-11-08T10:47:57Z",
+  "checked_label": "8 Nov",
+  "days": {
+   "2026-11-22": {
+    "london": {
+     "desc": "turning cloudy",
+     "hi": 12,
+     "lo": 4
+    }
+   }
+  },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-07T10:47:51Z",
-  "checked_label": "7 Nov",
+  "checked_at": "2026-11-08T10:47:57Z",
+  "checked_label": "8 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-23",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-24",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
    },
    "osaka": {
     "basis": "forecast",
-    "peak": "2026-11-19",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-22",
+    "peak_end": "2026-12-11",
     "source": "Weathernews",
     "spot": "Osaka Castle",
     "url": "https://weathernews.jp/koyo/spot/26207/"
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-22",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-23",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-25",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
