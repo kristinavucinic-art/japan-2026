@@ -1,37 +1,44 @@
 {
  "fuji": {
-  "checked_at": "2026-11-07T10:47:51Z",
-  "checked_label": "7 Nov, 19:47 Japan",
+  "checked_at": "2026-11-09T10:48:06Z",
+  "checked_label": "9 Nov, 19:48 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-08",
-  "tomorrow_label": "Sun 8 Nov",
-  "tomorrow_line": "best view 08:00 (excellent)"
+  "tomorrow_date": "2026-11-10",
+  "tomorrow_label": "Tue 10 Nov",
+  "tomorrow_line": "light rain at 9, cloudy at 12 · rain 40–60%"
  },
  "weather": {
-  "checked_at": "2026-11-08T10:47:57Z",
-  "checked_label": "8 Nov",
+  "checked_at": "2026-11-09T10:48:06Z",
+  "checked_label": "9 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "turning cloudy",
+     "desc": "sun then clouds",
      "hi": 12,
      "lo": 4
+    }
+   },
+   "2026-11-23": {
+    "osaka": {
+     "desc": "mostly cloudy",
+     "hi": 17,
+     "lo": 7
     }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-08T10:47:57Z",
-  "checked_label": "8 Nov",
+  "checked_at": "2026-11-09T10:48:06Z",
+  "checked_label": "9 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-24",
-    "peak_end": "2026-12-09",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-11",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
@@ -46,16 +53,16 @@
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-23",
-    "peak_end": "2026-12-09",
+    "peak": "2026-11-24",
+    "peak_end": "2026-12-10",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-26",
-    "peak_end": "2026-12-09",
+    "peak": "2026-11-27",
+    "peak_end": "2026-12-10",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
