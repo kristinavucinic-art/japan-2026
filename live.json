@@ -1,24 +1,24 @@
 {
  "fuji": {
-  "checked_at": "2026-11-09T10:48:06Z",
-  "checked_label": "9 Nov, 19:48 Japan",
+  "checked_at": "2026-11-10T10:47:39Z",
+  "checked_label": "10 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-10",
-  "tomorrow_label": "Tue 10 Nov",
-  "tomorrow_line": "light rain at 9, cloudy at 12 · rain 40–60%"
+  "tomorrow_date": "2026-11-11",
+  "tomorrow_label": "Wed 11 Nov",
+  "tomorrow_line": "best view 09:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-09T10:48:06Z",
-  "checked_label": "9 Nov",
+  "checked_at": "2026-11-10T10:47:39Z",
+  "checked_label": "10 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "sun then clouds",
-     "hi": 12,
-     "lo": 4
+     "desc": "dull then cloudy",
+     "hi": 11,
+     "lo": 6
     }
    },
    "2026-11-23": {
@@ -27,18 +27,25 @@
      "hi": 17,
      "lo": 7
     }
+   },
+   "2026-11-24": {
+    "kyoto": {
+     "desc": "rain",
+     "hi": 16,
+     "lo": 4
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-09T10:48:06Z",
-  "checked_label": "9 Nov",
+  "checked_at": "2026-11-10T10:47:39Z",
+  "checked_label": "10 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-26",
-    "peak_end": "2026-12-11",
+    "peak": "2026-11-23",
+    "peak_end": "2026-12-08",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
