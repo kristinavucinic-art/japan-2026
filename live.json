@@ -1,31 +1,31 @@
 {
  "fuji": {
-  "checked_at": "2026-11-10T10:47:39Z",
-  "checked_label": "10 Nov, 19:47 Japan",
+  "checked_at": "2026-11-11T10:47:45Z",
+  "checked_label": "11 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-11",
-  "tomorrow_label": "Wed 11 Nov",
-  "tomorrow_line": "best view 09:00 (excellent)"
+  "tomorrow_date": "2026-11-12",
+  "tomorrow_label": "Thu 12 Nov",
+  "tomorrow_line": "sunny at 9, sunny at 12 · rain 0% · best view 09:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-10T10:47:39Z",
-  "checked_label": "10 Nov",
+  "checked_at": "2026-11-11T10:47:45Z",
+  "checked_label": "11 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "dull then cloudy",
-     "hi": 11,
-     "lo": 6
+     "desc": "cloudy, showers",
+     "hi": 12,
+     "lo": 8
     }
    },
    "2026-11-23": {
     "osaka": {
-     "desc": "mostly cloudy",
-     "hi": 17,
-     "lo": 7
+     "desc": "mostly sunny",
+     "hi": 18,
+     "lo": 11
     }
    },
    "2026-11-24": {
@@ -34,13 +34,20 @@
      "hi": 16,
      "lo": 4
     }
+   },
+   "2026-11-25": {
+    "kyoto": {
+     "desc": "cloudy",
+     "hi": 14,
+     "lo": 8
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-10T10:47:39Z",
-  "checked_label": "10 Nov",
+  "checked_at": "2026-11-11T10:47:45Z",
+  "checked_label": "11 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
@@ -68,8 +75,8 @@
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-27",
-    "peak_end": "2026-12-10",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
