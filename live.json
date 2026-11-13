@@ -1,45 +1,45 @@
 {
  "fuji": {
-  "checked_at": "2026-11-12T10:47:55Z",
-  "checked_label": "12 Nov, 19:47 Japan",
+  "checked_at": "2026-11-13T10:52:24Z",
+  "checked_label": "13 Nov, 19:52 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-13",
-  "tomorrow_label": "Fri 13 Nov",
-  "tomorrow_line": "sunny at 9, sunny at 12 · rain 0% · best view 09:00 (excellent)"
+  "tomorrow_date": "2026-11-14",
+  "tomorrow_label": "Sat 14 Nov",
+  "tomorrow_line": "sunny at 9, cloudy at 12 · rain 0–20%"
  },
  "weather": {
-  "checked_at": "2026-11-12T10:47:55Z",
-  "checked_label": "12 Nov",
+  "checked_at": "2026-11-13T10:52:24Z",
+  "checked_label": "13 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "sunny spells, shower",
-     "hi": 11,
+     "desc": "occasional rain",
+     "hi": 12,
      "lo": 7
     }
    },
    "2026-11-23": {
     "osaka": {
-     "desc": "sunny",
+     "desc": "mostly sunny",
      "hi": 16,
-     "lo": 9
+     "lo": 8
     }
    },
    "2026-11-24": {
     "kyoto": {
      "desc": "sun and cloud",
      "hi": 17,
-     "lo": 6
+     "lo": 8
     }
    },
    "2026-11-25": {
     "kyoto": {
-     "desc": "cloudy",
-     "hi": 14,
-     "lo": 8
+     "desc": "morning rain",
+     "hi": 18,
+     "lo": 9
     }
    },
    "2026-11-26": {
@@ -48,13 +48,25 @@
      "hi": 17,
      "lo": 9
     }
+   },
+   "2026-11-27": {
+    "osaka": {
+     "desc": "sun and cloud",
+     "hi": 17,
+     "lo": 7
+    },
+    "tokyo": {
+     "desc": "sun and cloud",
+     "hi": 17,
+     "lo": 9
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-12T10:47:55Z",
-  "checked_label": "12 Nov",
+  "checked_at": "2026-11-13T10:52:24Z",
+  "checked_label": "13 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
@@ -82,8 +94,8 @@
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-26",
-    "peak_end": "2026-12-09",
+    "peak": "2026-11-25",
+    "peak_end": "2026-12-08",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
