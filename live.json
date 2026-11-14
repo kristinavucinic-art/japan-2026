@@ -11,41 +11,41 @@
   "tomorrow_line": "sunny at 9, cloudy at 12 · rain 0–20%"
  },
  "weather": {
-  "checked_at": "2026-11-13T10:52:24Z",
-  "checked_label": "13 Nov",
+  "checked_at": "2026-11-14T10:47:47Z",
+  "checked_label": "14 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "occasional rain",
+     "desc": "rain later",
      "hi": 12,
-     "lo": 7
+     "lo": 8
     }
    },
    "2026-11-23": {
     "osaka": {
-     "desc": "mostly sunny",
+     "desc": "sun, then cloud",
      "hi": 16,
-     "lo": 8
+     "lo": 9
     }
    },
    "2026-11-24": {
     "kyoto": {
-     "desc": "sun and cloud",
+     "desc": "partly sunny",
      "hi": 17,
-     "lo": 8
+     "lo": 7
     }
    },
    "2026-11-25": {
     "kyoto": {
-     "desc": "morning rain",
-     "hi": 18,
-     "lo": 9
+     "desc": "afternoon rain",
+     "hi": 17,
+     "lo": 7
     }
    },
    "2026-11-26": {
     "osaka": {
-     "desc": "cloudy, showers",
-     "hi": 17,
+     "desc": "mostly sunny",
+     "hi": 16,
      "lo": 9
     }
    },
@@ -60,25 +60,32 @@
      "hi": 17,
      "lo": 9
     }
+   },
+   "2026-11-28": {
+    "tokyo": {
+     "desc": "cloud, then sun",
+     "hi": 13,
+     "lo": 6
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-13T10:52:24Z",
-  "checked_label": "13 Nov",
+  "checked_at": "2026-11-14T10:47:47Z",
+  "checked_label": "14 Nov",
   "cities": {
    "kyoto": {
     "basis": "forecast",
-    "peak": "2026-11-23",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-22",
+    "peak_end": "2026-12-07",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
    },
    "osaka": {
-    "basis": "forecast",
-    "peak": "2026-11-21",
+    "basis": "typical",
+    "peak": "2026-11-11",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
     "spot": "Osaka Castle",
@@ -86,16 +93,16 @@
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-24",
-    "peak_end": "2026-12-10",
+    "peak": "2026-11-23",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
    },
    "tokyo": {
     "basis": "forecast",
-    "peak": "2026-11-25",
-    "peak_end": "2026-12-08",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-09",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
