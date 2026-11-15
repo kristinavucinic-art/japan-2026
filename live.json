@@ -1,64 +1,64 @@
 {
  "fuji": {
-  "checked_at": "2026-11-13T10:52:24Z",
-  "checked_label": "13 Nov, 19:52 Japan",
+  "checked_at": "2026-11-15T10:48:13Z",
+  "checked_label": "15 Nov, 19:48 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-14",
-  "tomorrow_label": "Sat 14 Nov",
-  "tomorrow_line": "sunny at 9, cloudy at 12 · rain 0–20%"
+  "tomorrow_date": "2026-11-16",
+  "tomorrow_label": "Mon 16 Nov",
+  "tomorrow_line": "best view 10:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-14T10:47:47Z",
-  "checked_label": "14 Nov",
+  "checked_at": "2026-11-15T10:48:13Z",
+  "checked_label": "15 Nov",
   "days": {
    "2026-11-22": {
     "london": {
-     "desc": "rain later",
-     "hi": 12,
+     "desc": "mostly sunny",
+     "hi": 11,
      "lo": 8
     }
    },
    "2026-11-23": {
     "osaka": {
-     "desc": "sun, then cloud",
-     "hi": 16,
-     "lo": 9
+     "desc": "mostly sunny",
+     "hi": 17,
+     "lo": 8
     }
    },
    "2026-11-24": {
     "kyoto": {
-     "desc": "partly sunny",
-     "hi": 17,
+     "desc": "sun, high cloud",
+     "hi": 16,
      "lo": 7
     }
    },
    "2026-11-25": {
     "kyoto": {
-     "desc": "afternoon rain",
-     "hi": 17,
+     "desc": "rain",
+     "hi": 16,
      "lo": 7
     }
    },
    "2026-11-26": {
     "osaka": {
-     "desc": "mostly sunny",
-     "hi": 16,
-     "lo": 9
+     "desc": "sunny, few clouds",
+     "hi": 17,
+     "lo": 10
     }
    },
    "2026-11-27": {
     "osaka": {
-     "desc": "sun and cloud",
-     "hi": 17,
-     "lo": 7
-    },
-    "tokyo": {
-     "desc": "sun and cloud",
+     "desc": "sunny",
      "hi": 17,
      "lo": 9
+    },
+    "tokyo": {
+     "desc": "mostly sunny",
+     "hi": 18,
+     "lo": 10
     }
    },
    "2026-11-28": {
@@ -67,18 +67,25 @@
      "hi": 13,
      "lo": 6
     }
+   },
+   "2026-11-29": {
+    "tokyo": {
+     "desc": "becoming cloudy",
+     "hi": 13,
+     "lo": 7
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-14T10:47:47Z",
-  "checked_label": "14 Nov",
+  "checked_at": "2026-11-15T10:48:13Z",
+  "checked_label": "15 Nov",
   "cities": {
    "kyoto": {
-    "basis": "forecast",
-    "peak": "2026-11-22",
-    "peak_end": "2026-12-07",
+    "basis": "typical",
+    "peak": "2026-11-21",
+    "peak_end": "2026-12-10",
     "source": "Weathernews",
     "spot": "Arashiyama",
     "url": "https://weathernews.jp/koyo/spot/26101/"
