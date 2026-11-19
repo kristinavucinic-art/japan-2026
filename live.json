@@ -1,18 +1,18 @@
 {
  "fuji": {
-  "checked_at": "2026-11-18T10:48:46Z",
-  "checked_label": "18 Nov, 19:48 Japan",
+  "checked_at": "2026-11-19T10:48:17Z",
+  "checked_label": "19 Nov, 19:48 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-19",
-  "tomorrow_label": "Thu 19 Nov",
-  "tomorrow_line": "sunny at 9, sunny at 12 · rain 0–10%"
+  "tomorrow_date": "2026-11-20",
+  "tomorrow_label": "Fri 20 Nov",
+  "tomorrow_line": "best view 11:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-18T10:48:46Z",
-  "checked_label": "18 Nov",
+  "checked_at": "2026-11-19T10:48:17Z",
+  "checked_label": "19 Nov",
   "days": {
    "2026-11-22": {
     "london": {
@@ -24,22 +24,22 @@
    "2026-11-23": {
     "osaka": {
      "desc": "afternoon rain",
-     "hi": 16,
+     "hi": 14,
      "lo": 8
     }
    },
    "2026-11-24": {
     "kyoto": {
      "desc": "periods of rain",
-     "hi": 17,
-     "lo": 8
+     "hi": 15,
+     "lo": 3
     }
    },
    "2026-11-25": {
     "kyoto": {
      "desc": "partly sunny",
-     "hi": 10,
-     "lo": -1
+     "hi": 16,
+     "lo": 4
     }
    },
    "2026-11-26": {
@@ -53,45 +53,45 @@
     "osaka": {
      "desc": "sunny",
      "hi": 17,
-     "lo": 8
+     "lo": 10
     },
     "tokyo": {
-     "desc": "sunny",
-     "hi": 16,
-     "lo": 9
+     "desc": "afternoon rain",
+     "hi": 17,
+     "lo": 8
     }
    },
    "2026-11-28": {
     "tokyo": {
-     "desc": "sun and cloud",
-     "hi": 17,
+     "desc": "increasing cloud",
+     "hi": 19,
      "lo": 10
     }
    },
    "2026-11-29": {
     "tokyo": {
-     "desc": "sunny",
+     "desc": "morning rain",
      "hi": 17,
-     "lo": 9
+     "lo": 8
     }
    },
    "2026-11-30": {
     "tokyo": {
-     "desc": "mostly sunny",
-     "hi": 18,
-     "lo": 9
+     "desc": "sunny",
+     "hi": 17,
+     "lo": 8
     }
    },
    "2026-12-01": {
     "hongkong": {
      "desc": "becoming sunny",
-     "hi": 22,
-     "lo": 19
+     "hi": 26,
+     "lo": 22
     },
     "tokyo": {
-     "desc": "thick cloud",
+     "desc": "sunny",
      "hi": 16,
-     "lo": 9
+     "lo": 10
     }
    },
    "2026-12-02": {
@@ -100,13 +100,20 @@
      "hi": 24,
      "lo": 18
     }
+   },
+   "2026-12-03": {
+    "hongkong": {
+     "desc": "partly sunny",
+     "hi": 23,
+     "lo": 17
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-18T10:48:46Z",
-  "checked_label": "18 Nov",
+  "checked_at": "2026-11-19T10:48:17Z",
+  "checked_label": "19 Nov",
   "cities": {
    "kyoto": {
     "basis": "typical",
@@ -126,16 +133,16 @@
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-27",
-    "peak_end": "2026-12-13",
+    "peak": "2026-11-26",
+    "peak_end": "2026-12-12",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
    },
    "tokyo": {
-    "basis": "forecast",
-    "peak": "2026-11-24",
-    "peak_end": "2026-12-07",
+    "basis": "typical",
+    "peak": "2026-11-21",
+    "peak_end": "2026-12-10",
     "source": "Weathernews",
     "spot": "Gaien ginkgo",
     "url": "https://weathernews.jp/koyo/spot/24408/"
