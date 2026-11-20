@@ -1,29 +1,29 @@
 {
  "fuji": {
-  "checked_at": "2026-11-19T10:48:17Z",
-  "checked_label": "19 Nov, 19:48 Japan",
+  "checked_at": "2026-11-20T10:47:16Z",
+  "checked_label": "20 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": false,
   "target_summary": "",
-  "tomorrow_date": "2026-11-20",
-  "tomorrow_label": "Fri 20 Nov",
-  "tomorrow_line": "best view 11:00 (excellent)"
+  "tomorrow_date": "2026-11-21",
+  "tomorrow_label": "Sat 21 Nov",
+  "tomorrow_line": "best view 12:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-19T10:48:17Z",
-  "checked_label": "19 Nov",
+  "checked_at": "2026-11-20T10:47:16Z",
+  "checked_label": "20 Nov",
   "days": {
    "2026-11-22": {
     "london": {
      "desc": "occasional rain",
-     "hi": 9,
-     "lo": 4
+     "hi": 10,
+     "lo": 3
     }
    },
    "2026-11-23": {
     "osaka": {
-     "desc": "afternoon rain",
+     "desc": "mostly cloudy",
      "hi": 14,
      "lo": 8
     }
@@ -31,20 +31,20 @@
    "2026-11-24": {
     "kyoto": {
      "desc": "periods of rain",
-     "hi": 15,
-     "lo": 3
+     "hi": 14,
+     "lo": 4
     }
    },
    "2026-11-25": {
     "kyoto": {
-     "desc": "partly sunny",
-     "hi": 16,
-     "lo": 4
+     "desc": "mostly cloudy",
+     "hi": 15,
+     "lo": 3
     }
    },
    "2026-11-26": {
     "osaka": {
-     "desc": "sunny",
+     "desc": "high thin cloud",
      "hi": 16,
      "lo": 8
     }
@@ -52,27 +52,27 @@
    "2026-11-27": {
     "osaka": {
      "desc": "sunny",
-     "hi": 17,
+     "hi": 18,
      "lo": 10
     },
     "tokyo": {
-     "desc": "afternoon rain",
+     "desc": "mostly cloudy",
      "hi": 17,
-     "lo": 8
+     "lo": 10
     }
    },
    "2026-11-28": {
     "tokyo": {
-     "desc": "increasing cloud",
-     "hi": 19,
-     "lo": 10
+     "desc": "mostly cloudy",
+     "hi": 14,
+     "lo": 8
     }
    },
    "2026-11-29": {
     "tokyo": {
-     "desc": "morning rain",
-     "hi": 17,
-     "lo": 8
+     "desc": "mostly sunny",
+     "hi": 18,
+     "lo": 9
     }
    },
    "2026-11-30": {
@@ -84,21 +84,21 @@
    },
    "2026-12-01": {
     "hongkong": {
-     "desc": "becoming sunny",
-     "hi": 26,
-     "lo": 22
+     "desc": "morning shower",
+     "hi": 25,
+     "lo": 21
     },
     "tokyo": {
      "desc": "sunny",
-     "hi": 16,
-     "lo": 10
+     "hi": 18,
+     "lo": 9
     }
    },
    "2026-12-02": {
     "hongkong": {
      "desc": "cloud and sun",
-     "hi": 24,
-     "lo": 18
+     "hi": 26,
+     "lo": 22
     }
    },
    "2026-12-03": {
@@ -107,13 +107,20 @@
      "hi": 23,
      "lo": 17
     }
+   },
+   "2026-12-04": {
+    "hongkong": {
+     "desc": "cloud and sun",
+     "hi": 23,
+     "lo": 19
+    }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-19T10:48:17Z",
-  "checked_label": "19 Nov",
+  "checked_at": "2026-11-20T10:47:16Z",
+  "checked_label": "20 Nov",
   "cities": {
    "kyoto": {
     "basis": "typical",
@@ -133,8 +140,8 @@
    },
    "tofukuji": {
     "basis": "forecast",
-    "peak": "2026-11-26",
-    "peak_end": "2026-12-12",
+    "peak": "2026-11-25",
+    "peak_end": "2026-12-11",
     "source": "Weathernews",
     "spot": "Tofuku-ji",
     "url": "https://weathernews.jp/koyo/spot/26111/"
