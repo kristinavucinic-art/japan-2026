@@ -1,18 +1,18 @@
 {
  "fuji": {
-  "checked_at": "2026-11-23T10:48:03Z",
-  "checked_label": "23 Nov, 19:48 Japan",
+  "checked_at": "2026-11-24T10:47:33Z",
+  "checked_label": "24 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": true,
-  "target_summary": "sunny · 15° / -1°",
-  "tomorrow_date": "2026-11-24",
-  "tomorrow_label": "Tue 24 Nov",
-  "tomorrow_line": "cloudy at 9, light rain at 12 · rain 40–80%"
+  "target_summary": "sunny · 14° / 0°",
+  "tomorrow_date": "2026-11-25",
+  "tomorrow_label": "Wed 25 Nov",
+  "tomorrow_line": "best view 07:00, 09:00 and 10:00 (excellent) · 0% cloud"
  },
  "weather": {
-  "checked_at": "2026-11-23T10:48:03Z",
-  "checked_label": "23 Nov",
+  "checked_at": "2026-11-24T10:47:33Z",
+  "checked_label": "24 Nov",
   "days": {
    "2026-11-22": {
     "london": {
@@ -30,29 +30,29 @@
    },
    "2026-11-24": {
     "kyoto": {
-     "desc": "periods of rain",
+     "desc": "evening shower",
      "hi": 13,
-     "lo": 3
+     "lo": 4
     }
    },
    "2026-11-25": {
     "kyoto": {
-     "desc": "partly sunny",
-     "hi": 14,
+     "desc": "sunshine returns",
+     "hi": 13,
      "lo": 1
     }
    },
    "2026-11-26": {
     "osaka": {
      "desc": "turning cloudy",
-     "hi": 14,
+     "hi": 15,
      "lo": 7
     }
    },
    "2026-11-27": {
     "osaka": {
-     "desc": "sunny intervals",
-     "hi": 18,
+     "desc": "plenty of sun",
+     "hi": 19,
      "lo": 12
     },
     "tokyo": {
@@ -133,8 +133,8 @@
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-23T10:48:03Z",
-  "checked_label": "23 Nov",
+  "checked_at": "2026-11-24T10:47:33Z",
+  "checked_label": "24 Nov",
   "cities": {
    "kyoto": {
     "basis": "typical",
