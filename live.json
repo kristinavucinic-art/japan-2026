@@ -11,8 +11,8 @@
   "tomorrow_line": "best view 07:00, 08:00 and 09:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-26T10:48:07Z",
-  "checked_label": "26 Nov",
+  "checked_at": "2026-11-27T10:48:05Z",
+  "checked_label": "27 Nov",
   "days": {
    "2026-11-22": {
     "london": {
@@ -51,93 +51,95 @@
    },
    "2026-11-27": {
     "osaka": {
-     "desc": "clouds and sunshine",
+     "desc": "overcast, rain later",
      "hi": 19,
      "lo": 13
     },
     "tokyo": {
-     "desc": "plenty of sunshine",
+     "desc": "rain late",
      "hi": 17,
-     "lo": 10
+     "lo": 11
     }
    },
    "2026-11-28": {
     "tokyo": {
      "desc": "rain then sun",
-     "hi": 19,
+     "hi": 21,
      "lo": 9
     }
    },
    "2026-11-29": {
     "tokyo": {
      "desc": "mostly sunny, breezy",
-     "hi": 15,
-     "lo": 6
+     "hi": 16,
+     "lo": 5
     }
    },
    "2026-11-30": {
     "tokyo": {
-     "desc": "plenty of sunlight",
-     "hi": 15,
-     "lo": 5
+     "desc": "mostly sunny",
+     "hi": 16,
+     "lo": 6
     }
    },
    "2026-12-01": {
     "hongkong": {
-     "desc": "sunshine, few clouds",
+     "desc": "mostly sunny, humid",
      "hi": 26,
      "lo": 22
     },
     "tokyo": {
      "desc": "plenty of sun",
-     "hi": 19,
-     "lo": 8
+     "hi": 20,
+     "lo": 9
     }
    },
    "2026-12-02": {
     "hongkong": {
-     "desc": "clouds and sun",
-     "hi": 27,
+     "desc": "thick clouds, humid",
+     "hi": 26,
      "lo": 22
     }
    },
    "2026-12-03": {
     "hongkong": {
-     "desc": "high clouds, humid",
-     "hi": 26,
-     "lo": 22
+     "desc": "humid, some sun",
+     "hi": 28,
+     "lo": 23
     }
    },
    "2026-12-04": {
     "hongkong": {
-     "desc": "partly sunny, humid",
+     "desc": "clouds and sun",
      "hi": 27,
      "lo": 23
     }
    },
    "2026-12-05": {
     "hongkong": {
-     "desc": "mostly cloudy, humid",
-     "hi": 28,
-     "lo": 24
+     "desc": "cloudy, showers",
+     "hi": 26,
+     "lo": 23
     }
    },
    "2026-12-06": {
     "london": {
-     "desc": "morning shower",
-     "hi": 11,
-     "lo": 6
+     "desc": "partly sunny",
+     "hi": 9,
+     "lo": 5
     }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-26T10:48:07Z",
-  "checked_label": "26 Nov",
+  "checked_at": "2026-11-27T10:48:05Z",
+  "checked_label": "27 Nov",
   "cities": {
    "kyoto": {
     "basis": "typical",
+    "now_label": "Peak",
+    "now_level": 5,
     "peak": "2026-11-21",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
@@ -162,6 +164,8 @@
    },
    "tokyo": {
     "basis": "typical",
+    "now_label": "Leaves falling",
+    "now_level": 1,
     "peak": "2026-11-21",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
