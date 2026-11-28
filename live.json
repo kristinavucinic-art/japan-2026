@@ -1,18 +1,18 @@
 {
  "fuji": {
-  "checked_at": "2026-11-26T10:48:07Z",
-  "checked_label": "26 Nov, 19:48 Japan",
+  "checked_at": "2026-11-28T10:47:56Z",
+  "checked_label": "28 Nov, 19:47 Japan",
   "source": "tenki.jp (Fuji World Heritage Centre) + isitvisible.com",
   "target_date": "2026-11-30",
   "target_in_range": true,
-  "target_summary": "sunny · 15° / -1°",
-  "tomorrow_date": "2026-11-27",
-  "tomorrow_label": "Fri 27 Nov",
-  "tomorrow_line": "best view 07:00, 08:00 and 09:00 (excellent)"
+  "target_summary": "sunny · 13° / 2° · best view 09:00 (excellent)",
+  "tomorrow_date": "2026-11-29",
+  "tomorrow_label": "Sun 29 Nov",
+  "tomorrow_line": "best view 15:00 and 16:00 (excellent)"
  },
  "weather": {
-  "checked_at": "2026-11-27T10:48:05Z",
-  "checked_label": "27 Nov",
+  "checked_at": "2026-11-28T10:47:56Z",
+  "checked_label": "28 Nov",
   "days": {
    "2026-11-22": {
     "london": {
@@ -63,83 +63,81 @@
    },
    "2026-11-28": {
     "tokyo": {
-     "desc": "rain then sun",
-     "hi": 21,
-     "lo": 9
+     "desc": "evening shower",
+     "hi": 18,
+     "lo": 10
     }
    },
    "2026-11-29": {
     "tokyo": {
-     "desc": "mostly sunny, breezy",
-     "hi": 16,
-     "lo": 5
+     "desc": "windy and sunny",
+     "hi": 15,
+     "lo": 4
     }
    },
    "2026-11-30": {
     "tokyo": {
-     "desc": "mostly sunny",
+     "desc": "plenty of sun",
      "hi": 16,
      "lo": 6
     }
    },
    "2026-12-01": {
     "hongkong": {
-     "desc": "mostly sunny, humid",
+     "desc": "mostly sunny",
      "hi": 26,
      "lo": 22
     },
     "tokyo": {
      "desc": "plenty of sun",
-     "hi": 20,
+     "hi": 21,
      "lo": 9
     }
    },
    "2026-12-02": {
     "hongkong": {
-     "desc": "thick clouds, humid",
+     "desc": "humid, some sun",
      "hi": 26,
-     "lo": 22
+     "lo": 23
     }
    },
    "2026-12-03": {
     "hongkong": {
      "desc": "humid, some sun",
-     "hi": 28,
+     "hi": 27,
      "lo": 23
     }
    },
    "2026-12-04": {
     "hongkong": {
-     "desc": "clouds and sun",
+     "desc": "afternoon showers",
      "hi": 27,
      "lo": 23
     }
    },
    "2026-12-05": {
     "hongkong": {
-     "desc": "cloudy, showers",
-     "hi": 26,
-     "lo": 23
+     "desc": "morning showers",
+     "hi": 27,
+     "lo": 24
     }
    },
    "2026-12-06": {
     "london": {
-     "desc": "partly sunny",
-     "hi": 9,
-     "lo": 5
+     "desc": "mostly cloudy",
+     "hi": 11,
+     "lo": 8
     }
    }
   },
   "source": "AccuWeather"
  },
  "foliage": {
-  "checked_at": "2026-11-27T10:48:05Z",
-  "checked_label": "27 Nov",
+  "checked_at": "2026-11-28T10:47:56Z",
+  "checked_label": "28 Nov",
   "cities": {
    "kyoto": {
     "basis": "typical",
-    "now_label": "Peak",
-    "now_level": 5,
     "peak": "2026-11-21",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
@@ -148,6 +146,8 @@
    },
    "osaka": {
     "basis": "typical",
+    "now_label": "Peak",
+    "now_level": 5,
     "peak": "2026-11-11",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
@@ -156,6 +156,8 @@
    },
    "tofukuji": {
     "basis": "typical",
+    "now_label": "Peak",
+    "now_level": 5,
     "peak": "2026-11-11",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
@@ -164,8 +166,6 @@
    },
    "tokyo": {
     "basis": "typical",
-    "now_label": "Leaves falling",
-    "now_level": 1,
     "peak": "2026-11-21",
     "peak_end": "2026-12-10",
     "source": "Weathernews",
